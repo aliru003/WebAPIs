@@ -1,6 +1,6 @@
 JavaScript Code Quiz
 
-Live Link: 
+Live Link: https://aliru003.github.io/WebAPIs/
 
 The Goal - take a timed quiz on JavaScript fundamentals that stores high scores
 so that the user can gauge there progress.
