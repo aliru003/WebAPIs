@@ -69,7 +69,7 @@ function endGame() {
 //store the scores on local storage
 function setScore() {
     localStorage.setItem("highscore", score);
-    localStorage.setItem("highscoreName",  document.getElementById('name').value);
+    localStorage.setItem("highscoreName", document.getElementById('name').value);
     getScore();
 }
 
@@ -81,7 +81,7 @@ function getScore() {
     
     <button onclick="clearScore()">Clear score!</button><button onclick="resetGame()">Play Again!</button>
     
-    `;
+`;
 
     document.getElementById("quizBody").innerHTML = quizContent;
 }
